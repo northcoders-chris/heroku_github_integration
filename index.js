@@ -7,6 +7,11 @@ app.get('/', function (req, res) {
   });
 });
 
+app.get('/hello-world', function (req, res) {
+  res.status(200).json({
+    hello: 'world!'
+  });
+});
 
 var port = process.env.PORT || 3000;
 
