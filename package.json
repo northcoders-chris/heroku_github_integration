@@ -1,0 +1,14 @@
+{
+  "name": "her_gh_pipeline",
+  "version": "1.0.0",
+  "description": "This is a simple express hello world project with continuous integration with a heroku app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
