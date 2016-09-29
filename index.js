@@ -13,6 +13,12 @@ app.get('/hello-world', function (req, res) {
   });
 });
 
+app.get('/ebv', function (req, res) {
+  res.status(200).json({
+    environment: process.env.HEROKU_ENV
+  });
+});
+
 var port = process.env.PORT || 3000;
 
 app.listen(port, function () {
